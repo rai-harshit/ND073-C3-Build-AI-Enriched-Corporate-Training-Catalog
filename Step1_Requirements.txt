@@ -1,0 +1,12 @@
+The users should be able to search title for keywords.
+The users should be able to search descriptions for keywords and phrases.
+The users should be able to facet on course duration.
+The users should be able to retrieve curated profiles of instructors.
+The users should be able to filter based on technology.
+The users should be able to retrieve course reviews.
+The users should be able to facet courses by their popularity and rating.
+The users should be able to filter and facet on source, skill and level.
+The users should be able to sort the results by duration, popularity, rating and rating count.
+The users should be able to search the curated library of papers for keywords and phrases.
+The users should be able to retrieve author names and their associated institutions from the curated library of papers.
+The users should be able to retrieve publication name, publisher, publication data and URI as inferred from AI-enrichment of journal articles.  
