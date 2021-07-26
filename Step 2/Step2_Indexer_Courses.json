@@ -1,0 +1,50 @@
+{
+  "@odata.context": "https://aictc-cognitive-search.search.windows.net/$metadata#indexers/$entity",
+  "@odata.etag": "\"0x8D94F92B0584FF6\"",
+  "name": "aictc-csv-indexer",
+  "description": "",
+  "dataSourceName": "aictc-csv",
+  "skillsetName": "aictc-csv-skillset",
+  "targetIndexName": "aictc-csv-index",
+  "disabled": null,
+  "schedule": null,
+  "parameters": {
+    "batchSize": null,
+    "maxFailedItems": 0,
+    "maxFailedItemsPerBatch": 0,
+    "base64EncodeKeys": null,
+    "configuration": {
+      "dataToExtract": "contentAndMetadata",
+      "parsingMode": "delimitedText",
+      "firstLineContainsHeaders": true,
+      "delimitedTextDelimiter": ",",
+      "delimitedTextHeaders": ""
+    }
+  },
+  "fieldMappings": [
+    {
+      "sourceFieldName": "AzureSearch_DocumentKey",
+      "targetFieldName": "AzureSearch_DocumentKey",
+      "mappingFunction": {
+        "name": "base64Encode",
+        "parameters": null
+      }
+    }
+  ],
+  "outputFieldMappings": [
+    {
+      "sourceFieldName": "/document/description/organizations",
+      "targetFieldName": "organizations"
+    },
+    {
+      "sourceFieldName": "/document/description/people",
+      "targetFieldName": "people"
+    },
+    {
+      "sourceFieldName": "/document/description/keyphrases",
+      "targetFieldName": "keyphrases"
+    }
+  ],
+  "cache": null,
+  "encryptionKey": null
+}

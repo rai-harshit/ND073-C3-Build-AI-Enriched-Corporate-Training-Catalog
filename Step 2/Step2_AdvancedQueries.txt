@@ -1,0 +1,153 @@
+https://aictc-cognitive-search.search.windows.net/indexes/aictc-csv-index/docs?api-version=2020-06-30-Preview&search=*&%24select=source%2Crating_count&%24filter=rating_count%20gt%20100
+
+{
+    "@odata.context": "https://aictc-cognitive-search.search.windows.net/indexes('aictc-csv-index')/$metadata#docs(*)",
+    "value": [
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "rating_count": 540
+        },
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "rating_count": 550
+        },
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "rating_count": 125
+        },
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "rating_count": 101
+        },
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "rating_count": 115
+        },
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "rating_count": 132
+        },
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "rating_count": 510
+        },
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "rating_count": 325
+        },
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "rating_count": 525
+        },
+        {
+            "@search.score": 1,
+            "source": "MS Learn",
+            "rating_count": 4523
+        },
+        {
+            "@search.score": 1,
+            "source": "MS Learn",
+            "rating_count": 141
+        }
+    ]
+}
+
+
+
+https://aictc-cognitive-search.search.windows.net/indexes/aictc-csv-index/docs?api-version=2020-06-30-Preview&search=*&%24select=title%2Csource&%24filter=rating_average%20gt%204.8
+
+{
+    "@odata.context": "https://aictc-cognitive-search.search.windows.net/indexes('aictc-csv-index')/$metadata#docs(*)",
+    "value": [
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "title": "Onboarding - Technology Policies"
+        },
+        {
+            "@search.score": 1,
+            "source": "Company Moodle",
+            "title": "DevOps for Ops"
+        },
+        {
+            "@search.score": 1,
+            "source": "MS Learn",
+            "title": "Automate Node.js deployments with Azure Pipelines"
+        }
+    ]
+}
+
+
+
+https://aictc-cognitive-search.search.windows.net/indexes/aictc-csv-index/docs?api-version=2020-06-30-Preview&search=*&%24orderby=rating_count%20desc&%24top=3&%24select=title%2Crating_count
+
+{
+    "@odata.context": "https://aictc-cognitive-search.search.windows.net/indexes('aictc-csv-index')/$metadata#docs(*)",
+    "value": [
+        {
+            "@search.score": 1,
+            "title": "Microsoft Azure Artificial Intelligence (AI) strategy and solutions",
+            "rating_count": 4523
+        },
+        {
+            "@search.score": 1,
+            "title": "Onboarding - Technology Policies",
+            "rating_count": 550
+        },
+        {
+            "@search.score": 1,
+            "title": "Onboarding - Time Tracking",
+            "rating_count": 540
+        }
+    ]
+}
+
+
+
+https://aictc-cognitive-search.search.windows.net/indexes/aictc-csv-index/docs?api-version=2020-06-30-Preview&search=*&%24orderby=duration%20desc&%24top=3&%24select=title%2Cduration
+
+{
+    "@odata.context": "https://aictc-cognitive-search.search.windows.net/indexes('aictc-csv-index')/$metadata#docs(*)",
+    "value": [
+        {
+            "@search.score": 1,
+            "title": "Build a Web App with Refreshable Machine Learning Models",
+            "duration": 82
+        },
+        {
+            "@search.score": 1,
+            "title": "Automate the deployment of ARM templates by using GitHub Actions",
+            "duration": 66
+        },
+        {
+            "@search.score": 1,
+            "title": "Microsoft Azure Artificial Intelligence (AI) strategy and solutions",
+            "duration": 59
+        }
+    ]
+}
+
+
+
+https://aictc-cognitive-search.search.windows.net/indexes/aictc-csv-index/docs?api-version=2020-06-30-Preview&search=*&%24select=role%2Ctitle%2Cduration&%24filter=role%20eq%20'administrator'
+
+{
+    "@odata.context": "https://aictc-cognitive-search.search.windows.net/indexes('aictc-csv-index')/$metadata#docs(*)",
+    "value": [
+        {
+            "@search.score": 1,
+            "title": "Automate the deployment of ARM templates by using GitHub Actions",
+            "role": "administrator",
+            "duration": 66
+        }
+    ]
+}

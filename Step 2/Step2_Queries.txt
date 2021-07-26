@@ -1,0 +1,144 @@
+https://aictc-cognitive-search.search.windows.net/indexes/aictc-csv-index/docs?api-version=2020-06-30-Preview&search=%22Node.js%22
+
+{
+    "@odata.context": "https://aictc-cognitive-search.search.windows.net/indexes('aictc-csv-index')/$metadata#docs(*)",
+    "value": [
+        {
+            "@search.score": 6.207445,
+            "source": "MS Learn",
+            "title": "Automate Node.js deployments with Azure Pipelines",
+            "description": "Implement CI/CD pipeline for Node.js applications. Automate deployment of Vue, React, Angular or webpack apps with Azure Pipelines.",
+            "instructor": null,
+            "level": "beginner",
+            "role": "devops-engineer",
+            "product": "azure",
+            "duration": "44",
+            "rating_count": "41",
+            "rating_average": "4.9",
+            "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-nodejs/?WT.mc_id=api_CatalogApi",
+            "AzureSearch_DocumentKey": "aHR0cHM6Ly9haWN0Y3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L2FpY3RjLWJsb2Itc3RvcmFnZS9jc3YvY291cnNlcy5jc3Y7MTU1",
+            "organizations": [
+                "Azure Pipelines"
+            ],
+            "people": [],
+            "keyphrases": [
+                "Node.js applications",
+                "CI/CD pipeline",
+                "webpack apps",
+                "Azure Pipelines",
+                "deployment",
+                "Vue",
+                "React",
+                "Angular"
+            ]
+        }
+    ]
+}
+
+
+
+https://aictc-cognitive-search.search.windows.net/indexes/aictc-csv-index/docs?api-version=2020-06-30-Preview&search=%22CI%2FCD%22
+
+{
+    "@odata.context": "https://aictc-cognitive-search.search.windows.net/indexes('aictc-csv-index')/$metadata#docs(*)",
+    "value": [
+        {
+            "@search.score": 14.50796,
+            "source": "MS Learn",
+            "title": "Implement CI/CD with Azure DevOps",
+            "description": "Implement CI/CD with Azure DevOps",
+            "instructor": null,
+            "level": "intermediate",
+            "role": "data-engineer",
+            "product": "azure-databricks",
+            "duration": "28",
+            "rating_count": "141",
+            "rating_average": "4.74",
+            "url": "https://docs.microsoft.com/en-us/learn/modules/implement-ci-cd-azure-devops/?WT.mc_id=api_CatalogApi",
+            "AzureSearch_DocumentKey": "aHR0cHM6Ly9haWN0Y3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L2FpY3RjLWJsb2Itc3RvcmFnZS9jc3YvY291cnNlcy5jc3Y7MTk1",
+            "organizations": [
+                "Azure DevOps"
+            ],
+            "people": [],
+            "keyphrases": [
+                "Azure DevOps",
+                "CI/CD"
+            ]
+        },
+        {
+            "@search.score": 5.9103155,
+            "source": "Company Moodle",
+            "title": "DevOps for Ops",
+            "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+            "instructor": "Claudia Blackman",
+            "level": "intermediate",
+            "role": "admin",
+            "product": "jenkins",
+            "duration": "5",
+            "rating_count": "56",
+            "rating_average": "4.9",
+            "url": "https://www.example.com/course5",
+            "AzureSearch_DocumentKey": "aHR0cHM6Ly9haWN0Y3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L2FpY3RjLWJsb2Itc3RvcmFnZS9jc3YvY291cnNlcy5jc3Y7NQ2",
+            "organizations": [],
+            "people": [],
+            "keyphrases": [
+                "CI/CD pipelines",
+                "operations perspective",
+                "administrators",
+                "course"
+            ]
+        },
+        {
+            "@search.score": 5.462542,
+            "source": "Company Moodle",
+            "title": "DevOps for Dev",
+            "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+            "instructor": "Claudia Blackman",
+            "level": "intermediate",
+            "role": "developer",
+            "product": "jenkins",
+            "duration": "3",
+            "rating_count": "101",
+            "rating_average": "3.8",
+            "url": "https://www.example.com/course4",
+            "AzureSearch_DocumentKey": "aHR0cHM6Ly9haWN0Y3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L2FpY3RjLWJsb2Itc3RvcmFnZS9jc3YvY291cnNlcy5jc3Y7NA2",
+            "organizations": [],
+            "people": [],
+            "keyphrases": [
+                "existing CI/CD pipelines",
+                "dev work",
+                "developers",
+                "course"
+            ]
+        },
+        {
+            "@search.score": 4.9026785,
+            "source": "MS Learn",
+            "title": "Automate Node.js deployments with Azure Pipelines",
+            "description": "Implement CI/CD pipeline for Node.js applications. Automate deployment of Vue, React, Angular or webpack apps with Azure Pipelines.",
+            "instructor": null,
+            "level": "beginner",
+            "role": "devops-engineer",
+            "product": "azure",
+            "duration": "44",
+            "rating_count": "41",
+            "rating_average": "4.9",
+            "url": "https://docs.microsoft.com/en-us/learn/modules/deploy-nodejs/?WT.mc_id=api_CatalogApi",
+            "AzureSearch_DocumentKey": "aHR0cHM6Ly9haWN0Y3N0b3JhZ2UuYmxvYi5jb3JlLndpbmRvd3MubmV0L2FpY3RjLWJsb2Itc3RvcmFnZS9jc3YvY291cnNlcy5jc3Y7MTU1",
+            "organizations": [
+                "Azure Pipelines"
+            ],
+            "people": [],
+            "keyphrases": [
+                "Node.js applications",
+                "CI/CD pipeline",
+                "webpack apps",
+                "Azure Pipelines",
+                "deployment",
+                "Vue",
+                "React",
+                "Angular"
+            ]
+        }
+    ]
+}
